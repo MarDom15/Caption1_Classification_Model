@@ -1,0 +1,28 @@
+# requirements.txt file for Python 3.8 environment with Flask
+
+# Flask for developing the web application
+Flask==2.1.0
+
+# TensorFlow compatible with numpy 1.21 and pandas 1.9
+tensorflow==2.9.0
+
+# Keras compatible with TensorFlow 2.9.0
+keras==2.9.0
+
+# Numpy
+numpy==1.21
+
+# Pandas
+pandas==1.9
+
+# Matplotlib compatible with numpy 1.21
+matplotlib==3.4.3
+
+# Scikit-learn compatible with numpy 1.21
+scikit-learn==0.24.2
+
+# Seaborn compatible
+seaborn==0.11.2
+
+# Keras Tuner compatible with TensorFlow 2.9.0
+keras-tuner==1.1.2
