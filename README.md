@@ -121,7 +121,7 @@ The model used, **ResNet50**, is a convolutional neural network pretrained on Im
 ## ✅ **5. Testing and Evaluation**  
 Once trained, the model's performance is evaluated on an independent test set.
 - Evaluation : Evaluation of Models on test set:
-  ![Evaluation of Model](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/evaluation_on_test.png)
+  ![Evaluation of Model](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/eval.png)
 
 ### Metrics Used:
 1. **Accuracy**: Proportion of correct predictions.  
