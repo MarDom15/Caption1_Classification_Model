@@ -66,12 +66,14 @@ The quality and diversity of data directly influence model performance. An imbal
 📈 **Visualizations:**  
 - Class distribution: Distribution of different lesion types:  
   ![Class Distribution](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/distrubution_Labels.png)  
+
 - Age distribution: Analysis of age groups affected by each type of lesion:  
   ![Age Distribution](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/age_distribution.png)  
+
 - Head Metadata: Analysis of metadata csv:
   ![Head Metadata](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/head_csv.png)
-  
-- Images pro Labels: images pro Labels:
+
+- Images pro Labels: number of images pro Labels:
 | ![Images pro Labels](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/Labels_Numbers.png)
 
 ---
