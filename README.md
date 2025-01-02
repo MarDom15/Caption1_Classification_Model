@@ -34,7 +34,19 @@ Image classification models rely on convolutional neural networks (CNNs), such a
 ---
 
 ## 🔍 **2. Data Exploration (EDA)**  
-Data Exploration is an essential step in data-driven projects. It helps understand the structure of the data and detect any anomalies or trends.  
+Data Exploration is an essential step in data-driven projects. It helps understand the structure of the data and detect any anomalies or trends.Here are the different labels for this dataset.
+
+Class indices and their corresponding labels:
+
+Index 0: Actinic keratosis
+Index 1: Basal cell carcinoma
+Index 2: Dermatofibroma
+Index 3: Melanoma
+Index 4: Nevus
+Index 5: Pigmented benign keratosis
+Index 6: Squamous cell carcinoma
+Index 7: Vascular lesion
+
 
 ### Key Steps:
 1. Analyze the distribution of classes (types of lesions).  
