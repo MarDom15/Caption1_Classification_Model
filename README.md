@@ -44,7 +44,7 @@ Data Exploration is an essential step in data-driven projects. It helps understa
 ### Theoretical Context:
 The quality and diversity of data directly influence model performance. An imbalanced class distribution may require techniques like sampling or weighting to ensure reliable predictions.  
 
-📈 **Examples of Visualizations:**  
+📈 **Visualizations:**  
 - Class distribution: Distribution of different lesion types:  
   ![Class Distribution](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/distrubution_Labels.png)  
 - Age distribution: Analysis of age groups affected by each type of lesion:  
@@ -64,7 +64,7 @@ Data preparation is crucial to ensure uniform and relevant input to the model.
 ### Theoretical Context:
 Neural networks are sensitive to data scales. Normalization accelerates convergence and improves model robustness.
 
-📷 **Examples of normalized images:**  
+📷 **Examples of images:**  
 ![Example of a normalized image](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/image_exemple.png)  
 
 ---
@@ -144,7 +144,7 @@ Monitoring and MLOps practices ensure the model's maintenance and continuous imp
 1. **CI/CD**: Continuous integration and deployment with GitHub Actions.  
 2. **Kubernetes**: Container orchestration for scalable deployment.  
 
-#### Example CI/CD Pipeline:
+#### CI/CD Pipeline:
 ```yaml
 name: CI/CD Pipeline
 
@@ -184,7 +184,7 @@ The dataset **HAM10000** used in this project is a collection of 10,015 images o
 
 ## 🙌 **9. Contributors**  
 This project was created by:  
-- **[Your Name]**  
-For any questions or suggestions, contact me at [your-email@example.com](mailto:your-email@example.com).  
+- **[M. Domche]**  
+For any questions or suggestions, contact me at [yemail@example.com](mailto:your-email@example.com).  
 
 ✨ Thank you for your interest in this project!  
