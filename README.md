@@ -119,7 +119,9 @@ The model used, **ResNet50**, is a convolutional neural network pretrained on Im
 ---
 
 ## ✅ **5. Testing and Evaluation**  
-Once trained, the model's performance is evaluated on an independent test set.  
+Once trained, the model's performance is evaluated on an independent test set.
+- Evaluation : Evaluation of Models on test set:
+  ![Evaluation of Model](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/evaluation_on_test.png)
 
 ### Metrics Used:
 1. **Accuracy**: Proportion of correct predictions.  
@@ -128,10 +130,21 @@ Once trained, the model's performance is evaluated on an independent test set.
 4. **Confusion Matrix**: Visualizes classification errors.  
 
 📊 **Results and Confusion Matrix:**  
-![Confusion Matrix](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/Labels_Numbers.png)  
+![Confusion Matrix](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/confusion_matrix.png)  
 
 ### Theoretical Context:
 Metrics like F1-score are particularly useful in medical contexts where classification errors have critical implications.  
+
+- Metrics : Metrics for evaluation:
+  ![Metrics](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/Metrics.png)
+
+### Test whit new image and Grad-CAM :
+Here is the result of our model on a new image, along with the explainability analysis using the Grad-CAM method. This technique allows us to visualize which areas of the image influenced the model's decision. By using Grad-CAM, we generate a heatmap highlighting the important regions of the image that the model focused on for making its prediction. This approach provides a better understanding of the model's decision-making process, making its predictions more transparent and interpretable, which is essential for ensuring the reliability of the model, especially in sensitive applications.  
+
+-  Test and Grad-CAM: Test on new image and Grad-CAM:
+  ![Test](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/Test_new.png)
+
+  ![Grade-CAM](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/Grad-CAM.png)
 
 ---
 
