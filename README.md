@@ -39,12 +39,19 @@ Data Exploration is an essential step in data-driven projects. It helps understa
 Class indices and their corresponding labels:
 
 Index 0: Actinic keratosis.
+
 Index 1: Basal cell carcinoma.
+
 Index 2: Dermatofibroma.
+
 Index 3: Melanoma.
+
 Index 4: Nevus.
+
 Index 5: Pigmented benign keratosis.
+
 Index 6: Squamous cell carcinoma.
+
 Index 7: Vascular lesion.
 
 
