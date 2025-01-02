@@ -20,7 +20,7 @@
 ---
 
 ## ✨ **1. Introduction**  
-The **Skin Lesion Analyzer** is an application that uses artificial intelligence to detect and classify skin lesions from images. 
+The **Skin Lesion Analyzer** is an application that uses artificial intelligence to detect and classify skin lesions from images.  
 This approach automates and improves the accuracy of dermatological diagnostics through deep learning algorithms.  
 
 ### Theoretical Context:
@@ -45,8 +45,10 @@ Data Exploration is an essential step in data-driven projects. It helps understa
 The quality and diversity of data directly influence model performance. An imbalanced class distribution may require techniques like sampling or weighting to ensure reliable predictions.  
 
 📈 **Examples of Visualizations:**  
-- Class distribution: Distribution of different lesion types.  
-- Age distribution: Analysis of age groups affected by each type of lesion.  
+- Class distribution: Distribution of different lesion types:  
+  ![Class Distribution](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/distrubution_Labels.png)  
+- Age distribution: Analysis of age groups affected by each type of lesion:  
+  ![Age Distribution](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/age_distribution.png)  
 
 ---
 
@@ -61,6 +63,9 @@ Data preparation is crucial to ensure uniform and relevant input to the model.
 
 ### Theoretical Context:
 Neural networks are sensitive to data scales. Normalization accelerates convergence and improves model robustness.
+
+📷 **Examples of normalized images:**  
+![Example of a normalized image](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/image_exemple.png)  
 
 ---
 
@@ -77,8 +82,10 @@ The model used, **ResNet50**, is a convolutional neural network pretrained on Im
 - **Fine-Tuning**: Adapting a general-purpose model (like ResNet50) to a specific task.  
 
 📈 **Visual Indicators:**  
-- Accuracy curve: Evaluates performance on the validation set.  
-- Loss curve: Analyzes learning convergence.  
+- Accuracy curve: Evaluates performance on the validation set:  
+  ![Accuracy Curve](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/accuracycurve.png)  
+- Loss curve: Analyzes learning convergence:  
+  ![Loss Curve](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/losscurve.png)  
 
 ---
 
@@ -90,6 +97,9 @@ Once trained, the model's performance is evaluated on an independent test set.
 2. **Recall**: Model's ability to correctly identify positive cases.  
 3. **F1-score**: Harmonic mean of precision and recall, useful for imbalanced data.  
 4. **Confusion Matrix**: Visualizes classification errors.  
+
+📊 **Results and Confusion Matrix:**  
+![Confusion Matrix](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/Labels_Numbers.png)  
 
 ### Theoretical Context:
 Metrics like F1-score are particularly useful in medical contexts where classification errors have critical implications.  
