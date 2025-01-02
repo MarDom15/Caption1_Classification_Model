@@ -79,6 +79,9 @@ The model used, **ResNet50**, is a convolutional neural network pretrained on Im
 2. Perform data augmentation to improve robustness.  
 3. Train by adjusting the model's final layers.  
 
+- Training : Training Evolution:
+  ![Head Metadata](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/epochs20.png)
+
 ### Theoretical Context:
 - **Transfer Learning**: Using a pretrained model reduces data requirements and training time.  
 - **Fine-Tuning**: Adapting a general-purpose model (like ResNet50) to a specific task.  
