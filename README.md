@@ -70,6 +70,8 @@ The quality and diversity of data directly influence model performance. An imbal
   ![Age Distribution](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/age_distribution.png)  
 - Head Metadata: Analysis of metadata csv:
   ![Head Metadata](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/head_csv.png)
+- Images pro Labels: images pro Labels:
+| ![Images pro Labels](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/Labels_Numbers.png)
 
 ---
 
@@ -85,7 +87,7 @@ Data preparation is crucial to ensure uniform and relevant input to the model.
 ### Theoretical Context:
 Neural networks are sensitive to data scales. Normalization accelerates convergence and improves model robustness.
 
-📷 **Examples of images:**  
+📷 **Normalize images:**  
 ![Example of a normalized image](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/image_exemple.png)  
 
 ---
