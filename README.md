@@ -149,7 +149,7 @@ Here is the result of our model on a new image, along with the explainability an
 ---
 
 ## 🚀 **6. Deployment with Streamlit**  
-Once validated, the model is integrated into a Flask application for interactive use.  
+Once validated, the model is integrated into a Streamlit application for interactive use.  
 
 ### 📦 **Creating a Docker Image**  
 Docker is used to ensure application portability. A Docker image contains all necessary dependencies.  
