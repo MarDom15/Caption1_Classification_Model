@@ -148,7 +148,7 @@ Here is the result of our model on a new image, along with the explainability an
 
 ---
 
-## 🚀 **6. Deployment with Flask**  
+## 🚀 **6. Deployment with Streamlit**  
 Once validated, the model is integrated into a Flask application for interactive use.  
 
 ### 📦 **Creating a Docker Image**  
