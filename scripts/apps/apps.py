@@ -6,7 +6,7 @@ import io
 import os
 
 # Chemin du modèle .tflite
-MODEL_PATH = 'Models/final_model.tflite'
+MODEL_PATH = '/app/Models/final_model.tflite'  # Chemin absolu dans le conteneur Docker
 
 # Chargement du modèle TensorFlow Lite
 interpreter = tf.lite.Interpreter(model_path=MODEL_PATH)

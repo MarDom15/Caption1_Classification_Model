@@ -1,8 +1,8 @@
 # Streamlit for developing the web application
 streamlit==1.24.0
 
-# TensorFlow Lite
-tensorflow-lite==2.9.0  # Si vous avez un modèle TensorFlow Lite, assurez-vous d'utiliser cette version
+# Streamlit for developing the web application
+tensorflow-lite>=2.7.0
 
 # Protobuf compatible with TensorFlow 2.9.0
 protobuf==3.20.3
