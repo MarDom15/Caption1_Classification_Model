@@ -2,7 +2,7 @@
 streamlit==1.24.0
 
 # Streamlit for developing the web application
-tensorflow-lite>=2.7.0
+tensorflow>=2.7.0,<2.11.0
 
 # Protobuf compatible with TensorFlow 2.9.0
 protobuf==3.20.3
