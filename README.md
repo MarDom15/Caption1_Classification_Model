@@ -172,9 +172,15 @@ CMD ["python", "apps.py"]
 
 ### 🌐 **Server Deployment**  
 The Docker image is deployed on a server or cloud platform (AWS, Azure, Google Cloud).  
+- Docker Image : Image in Docker:
+
   ![Docker_Image](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/docker_deploy.png)
 
+- Apps Interface : Apps in Local:
+
   ![Apps Interface](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/apps_im_lokal.png)
+
+- Apps Test : Apps Test whit Image:
 
   ![Apps Test](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/test_apps.png)
 
