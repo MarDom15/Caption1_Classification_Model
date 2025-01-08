@@ -9,7 +9,7 @@
 3. [🛠️ Data Preparation](#data-preparation)  
 4. [🏋️‍♂️ Model Training](#model-training)  
 5. [✅ Testing and Evaluation](#testing-and-evaluation)  
-6. [🚀 Deployment with Flask](#deployment-with-flask)  
+6. [🚀 Deployment with Streamlit](#deployment-with-flask)  
     - [📦 Creating a Docker Image](#creating-a-docker-image)  
     - [🌐 Server Deployment](#server-deployment)  
 7. [📈 Monitoring and MLOps](#monitoring-and-mlops)  
@@ -167,11 +167,13 @@ COPY . /app
 WORKDIR /app
 
 # Command to start the Flask application
-CMD ["python", "app.py"]
+CMD ["python", "apps.py"]
 ```
 
 ### 🌐 **Server Deployment**  
 The Docker image is deployed on a server or cloud platform (AWS, Azure, Google Cloud).  
+
+  ![Docker_Image](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/.png)
 
 ---
 
