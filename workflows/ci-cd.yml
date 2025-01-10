@@ -1,0 +1,38 @@
+name: CI/CD for Streamlit Docker Application
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on the main branch
+  pull_request:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the repository code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Log in to DockerHub
+    - name: Log in to DockerHub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}  # Stored in GitHub Secrets
+        password: ${{ secrets.DOCKER_PASSWORD }}  # Stored in GitHub Secrets
+
+    # Step 3: Build the Docker image
+    - name: Build Docker Image
+      run: |
+        docker build -t madomg/dmgskin:latest .
+
+    # Step 4: Push the Docker image to DockerHub
+    - name: Push Docker Image
+      run: |
+        docker push madomg/dmgskin:latest
+
+    # Step 5 (Optional): Deploy locally or on a remote server
+    - name: Deploy Streamlit App (Optional)
+      run: |
+        echo "Deploy your application locally or configure remote deployment if needed."
