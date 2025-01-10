@@ -18,5 +18,5 @@ RUN pip install --no-cache-dir -r /app/scripts/requirements.txt
 EXPOSE 8501
 
 # Définir la commande pour exécuter l'application Streamlit depuis 'scripts/apps'
-CMD ["streamlit", "run", "/app/scripts/apps/app.py", "--server.port=8501", "--server.enableCORS=false"]
+CMD ["streamlit", "run", "/app/scripts/apps/apps.py", "--server.port=8501", "--server.enableCORS=false"]
 
