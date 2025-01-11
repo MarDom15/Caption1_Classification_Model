@@ -180,7 +180,7 @@ CMD ["python", "apps.py"]
 
  Your Docker image will now be ready to use.
 
-#docker run -p 8501:8501 my_image
+#   docker run -p 8501:8501 my_image
 
 ---
 ### 🌐 **Server/less Deployment**  
