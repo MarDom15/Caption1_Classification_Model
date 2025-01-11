@@ -255,7 +255,7 @@ The dataset **HAM10000** used in this project is a collection of 10,015 images o
 
 ## 🙌 **9. Contributors**  
 This project was created by:  
-- **[M. Domche]**  
+- **M. Domche**  
 For any questions or suggestions, contact me at [mdomche@example.com](mailto:your-email@example.com).  
 
 ✨ Thank you for your interest in this project!  
