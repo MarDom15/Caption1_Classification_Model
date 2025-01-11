@@ -169,8 +169,21 @@ WORKDIR /app
 # Command to start the Flask application
 CMD ["python", "apps.py"]
 ```
+ Add instructions on how to create the Docker image
+ 
+# Instructions to create the Docker image:
+ 1. Open your terminal and make sure you are in the same directory as the Dockerfile.
+ 2. Run the following command to build the Docker image:
+#    docker build -t my_image .
+ 3. To verify that the image has been created correctly, run the following command:
+    docker images
 
-### 🌐 **Server Deployment**  
+ Your Docker image will now be ready to use.
+
+#docker run -p 8501:8501 my_image
+
+---
+### 🌐 **Server/less Deployment**  
 The Docker image is deployed on a server or cloud platform (AWS, Azure, Google Cloud).  
 - Docker Image : Image in Docker:
 
