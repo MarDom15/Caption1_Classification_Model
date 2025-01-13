@@ -1,16 +1,172 @@
-# Ignorer les environnements virtuels
+# ================================
+# 1. Ignorer les environnements virtuels
+# ================================
 venv/
+env/
 *.env
-*.pyc
-__pycache__/
+*.venv
+*.virtualenv/
+.virtualenvs/
 
-# Ignorer les fichiers de tests ou de développement
+# ================================
+# 2. Ignorer les fichiers Python compilés
+# ================================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyc
+
+# ================================
+# 3. Ignorer les fichiers liés aux tests et à la couverture de tests
+# ================================
 tests/
 test/
-docs/
-dockerfile
-.devcontainer/
+test_*/ 
+tests_*/ 
+*.tox/
+*.nox/
+*.coverage
+*.coverage.*
+*.hypothesis/
+nose2-coverage.xml
+*.hypothesis/
+*.pytest_cache/
 
-# Ignorer les fichiers volumineux inutiles (par exemple les images ou modèles)
+# ================================
+# 4. Fichiers et dossiers de configuration d'éditeur
+# ================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.editorconfig
+
+# ================================
+# 5. Fichiers temporaires générés par l'éditeur
+# ================================
+*.log
+*.bak
+*.swp
+*.swo
+*.orig
+*.tmp
+
+# ================================
+# 6. Fichiers de base de données ou de cache temporaires
+# ================================
+*.db
+*.sqlite3
+*.sqlite
+*.db-journal
+*.log
+
+# ================================
+# 7. Fichiers et répertoires liés à Docker (si vous utilisez Docker)
+# ================================
+dockerfile
+.dockerignore
+docker-compose.yml
+.docker/
+*.docker/
+
+# ================================
+# 8. Ignorer les fichiers volumineux inutiles
+# ================================
 Models/
 prog_images/
+*.h5
+*.pkl
+*.pklz
+*.tar.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# ================================
+# 9. Fichiers liés à Git
+# ================================
+.git/
+.gitignore
+.gitattributes
+
+# ================================
+# 10. Fichiers spécifiques au système d'exploitation (Windows, macOS, Linux)
+# ================================
+# Windows
+Thumbs.db
+Desktop.ini
+*.bak
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*.swp
+
+# ================================
+# 11. Fichiers de cache
+# ================================
+.cache/
+*.cache/
+cache/
+
+# ================================
+# 12. Fichiers générés par le build ou d'autres outils
+# ================================
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# ================================
+# 13. Fichiers de documentation générés
+# ================================
+docs/
+*.pdf
+*.md
+*.rst
+*.html
+*.txt
+
+# ================================
+# 14. Fichiers spécifiques à Jupyter Notebooks
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ================================
+# 15. Fichiers temporaires de la gestion de versions
+# ================================
+*.gitmodules
+.git-credentials
+
+# ================================
+# 16. Fichiers de journaux d'erreur
+# ================================
+*.error
+*.err
+*.log
+*.log.*
+
+# ================================
+# 17. Fichiers de dumps de base de données
+# ================================
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# ================================
+# 18. Fichiers générés par les services cloud ou autres outils externes
+# ================================
+*.s3
+*.aws
+*.google
+*.firebase
+
