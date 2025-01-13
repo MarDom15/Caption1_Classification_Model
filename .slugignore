@@ -9,15 +9,6 @@ env/
 .virtualenvs/
 
 # ================================
-# 2. Ignorer les fichiers Python compilés
-# ================================
-*.pyc
-*.pyo
-*.pyd
-__pycache__/
-*.pyc
-
-# ================================
 # 3. Ignorer les fichiers liés aux tests et à la couverture de tests
 # ================================
 tests/
