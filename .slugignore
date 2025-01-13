@@ -1,6 +1,6 @@
-# Ignorer les fichiers temporaires
-*.log
-*.sqlite3
+# Ignorer les environnements virtuels
+venv/
+*.env
 *.pyc
 __pycache__/
 
@@ -14,4 +14,3 @@ dockerfile
 # Ignorer les fichiers volumineux inutiles (par exemple les images ou modèles)
 Models/
 prog_images/
-
