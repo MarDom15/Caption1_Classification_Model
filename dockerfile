@@ -1,5 +1,6 @@
-# Utiliser une image Python officielle comme base
-FROM python:3.9
+# Étape 1 : Utiliser l'image Python 3.9-slim comme image de base
+FROM python:3.9-slim
+
 
 # Définir le répertoire de travail dans le conteneur
 WORKDIR /app
