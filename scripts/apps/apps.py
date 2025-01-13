@@ -2,15 +2,12 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
-import io
-import os
 
-# Chemin du modèle .tflite
+# Chemin du modèle .h5
 MODEL_PATH = '/app/Models/final_model.h5'  # Chemin absolu dans le conteneur Docker
 
-# Chargement du modèle TensorFlow Lite
-interpreter = tf.lite.Interpreter(model_path=MODEL_PATH)
-interpreter.allocate_tensors()
+# Chargement du modèle Keras
+model = tf.keras.models.load_model(MODEL_PATH)
 
 # Fonction pour prétraiter l'image
 def preprocess_image(img):
@@ -21,20 +18,11 @@ def preprocess_image(img):
     img_array = img_array / 255.0  # Normalisation des pixels (0 à 1)
     return img_array
 
-# Fonction pour effectuer la prédiction avec le modèle TFLite
-def predict_image(interpreter, img):
+# Fonction pour effectuer la prédiction avec le modèle Keras
+def predict_image(model, img):
     """Effectuer la prédiction sur l'image donnée."""
     img_array = preprocess_image(img)
-
-    # Récupération des tensors d'entrée et de sortie
-    input_details = interpreter.get_input_details()
-    output_details = interpreter.get_output_details()
-
-    interpreter.set_tensor(input_details[0]['index'], img_array.astype(np.float32))
-    interpreter.invoke()
-
-    # Récupérer les résultats
-    predictions = interpreter.get_tensor(output_details[0]['index'])[0]
+    predictions = model.predict(img_array)[0]  # Effectuer la prédiction
     
     # Classes des maladies
     CLASS_LABELS = [
@@ -67,7 +55,7 @@ if uploaded_file is not None:
 
     # Faire la prédiction
     if st.button("Make Prediction"):
-        results = predict_image(interpreter, img)
+        results = predict_image(model, img)
         # Affichage des résultats
         st.write("Prediction Results:")
         for label, prob in results.items():
