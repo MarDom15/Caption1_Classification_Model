@@ -2,6 +2,8 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 from tflite_runtime.interpreter import Interpreter  # Importer TensorFlow Lite Runtime
+#from tflite_runtime.interpreter import Interpreter
+
 
 # Chemin du modèle TensorFlow Lite
 MODEL_PATH = '/app/Models/final_model.tflite'
