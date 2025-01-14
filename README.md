@@ -9,7 +9,7 @@
 3. [🛠️ Data Preparation](#data-preparation)  
 4. [🏋️‍♂️ Model Training](#model-training)  
 5. [✅ Testing and Evaluation](#testing-and-evaluation)  
-6. [🚀 Deployment with Streamlit](#deployment-with-flask)  
+6. [🚀 Deployment with Heroku](#deployment-with-flask)  
     - [📦 Creating a Docker Image](#creating-a-docker-image)  
     - [🌐 Server Deployment](#server-deployment)  
 7. [📈 Monitoring and MLOps](#monitoring-and-mlops)  
@@ -148,8 +148,8 @@ Here is the result of our model on a new image, along with the explainability an
 
 ---
 
-## 🚀 **6. Deployment with Streamlit**  
-Once validated, the model is integrated into a Streamlit application for interactive use.  
+## 🚀 **6. Deployment with Heroku**  
+Once validated, the model is integrated into a Heroku application for interactive use.  
 
 ### 📦 **Creating a Docker Image**  
 Docker is used to ensure application portability. A Docker image contains all necessary dependencies.  
@@ -198,6 +198,8 @@ The Docker image is deployed on a server or cloud platform (AWS, Azure, Google C
   ![Apps Test](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/test_apps.png)
 
 link for apps in local: http://localhost:8501/
+
+link Heroku : https://dmgskin-7a33fe17e491.herokuapp.com/
 
 
 
