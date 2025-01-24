@@ -197,9 +197,9 @@ The Docker image is deployed on a server or cloud platform (AWS, Azure, Google C
 
   ![Apps Test](https://github.com/MarDom15/Caption1_Classification_Model/blob/main/prog_images/test_apps.png)
 
-link for apps in local: http://localhost:8501/
+link for apps in local: http://172.26.144.1:8501
 
-link Heroku : https://dmgskin-7a33fe17e491.herokuapp.com/
+link Heroku : https://dmgskin-7a33fe17e491.herokuapp.com
 
 
 
