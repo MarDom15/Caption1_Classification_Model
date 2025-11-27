@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import tensorflow as tf
+interpreter = tf.lite.Interpreter(model_path="Models/final_model.tflite")
 
 # Charger le modèle TFLite
 MODEL_PATH = "Models/final_model.tflite"
