@@ -2,7 +2,7 @@ streamlit==1.30
 
 # TensorFlow Lite via TensorFlow
 
-tensorflow==2.20.0
+tensorflow==2.13.0
 
 numpy
 pandas
